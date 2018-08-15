@@ -15,13 +15,13 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   · SSH connection must be established.
   
   · APT-GET must be updated and upgraded:
-    ``` 
-    apt-get update
-    
-    apt-get upgrade
-    ```
 
-## 1st Step: Installing Node.js.
+  ``` 
+    apt-get update  
+    apt-get upgrade  
+  ```
+
+## 1st Step: Installing Node js.
   
   We will be installing a linux binary. Since we're running Raspbian, we'll use 'Linux Binaries (ARM)'.
   Notice there are three options. To know which one we should download, we need to type the following command:
