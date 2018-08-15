@@ -45,9 +45,8 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
 
 ## 2nd Step: Installing Homebridge.
 
-  Since this part isn't messy, it is better to follow the creator's guide:
+  Since this part isn't messy, it is better to follow the [creator's guide] (https://github.com/nfarina/homebridge)
   
-  https://github.com/nfarina/homebridge
 
 ## 3rd Step: Downloading source files.
   
