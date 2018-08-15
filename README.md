@@ -5,12 +5,15 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
 ## Notes
   
   · This project has been tested on a Raspberry Pi 3 B+.
+  
   · Since I am not a native speaker, some steps may be poorly written. Any help is welcomed.
 
 ## Prerequisites
 
   · Raspberry must be running Raspbian.
+  
   · SSH connection must be established.
+  
   · APT-GET must be updated and upgraded:
     ``` 
     apt-get update
