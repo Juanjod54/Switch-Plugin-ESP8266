@@ -114,14 +114,15 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   sudo nano config.json
   
   ```
-  By adding the following lines, our plugin has been installed:
-  **Remember to add a name and a mqttHost, which is the Raspberry's IP Address**
+  
+  By adding the following lines, our plugin has been installed and is ready to go!
+  **Remember to add a name and a mqttHost, which is the Raspberry's IP Address.**
   
   ```
-                  {
-                        "accessory": "relay",
-                        "name": "",
-                        "topic": "relay",
-                        "mqttHost": ""
-                }
+    {
+      "accessory": "relay",
+      "name": "",
+      "topic": "relay",
+      "mqttHost": ""
+    }
   
