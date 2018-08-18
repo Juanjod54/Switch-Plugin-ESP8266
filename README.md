@@ -10,7 +10,7 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
 
 ## Prerequisites
 
-  · Raspberry must be running Raspbian.
+  · Raspberry must be running Raspbian Jessie.
   
   · SSH connection must be established.
   
@@ -45,6 +45,39 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
 
 ## 2nd Step: Installing Mosquitto and Mosquitto's Java Script Library
 
+  First we'll download the key and add it to the key's list:
+  
+  ```
+  sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+  
+  sudo apt-key add mosquitto-repo.gpg.key
+  ```
+  Now we type the following command to enter into the directory:
+  
+  ```
+  cd /etc/apt/sources.list.d/
+  ```
+  
+  Then we download the repositories list.
+  
+  ```
+  sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+  ```
+
+  After that, we install mosquitto and mosquitto-clients
+  
+  ```
+  sudo apt-get install mosquitto
+  
+  sudo apt-get install mosquito-clients
+  ```
+  
+  Finally, we install the MQTT Java Script library
+  
+  ```
+  npm i mqtt
+  
+  ```
 ## 3rd Step: Installing Homebridge.
 
   Since this part isn't messy, it is better to follow the [creator's guide](https://github.com/nfarina/homebridge)
@@ -81,5 +114,14 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   sudo nano config.json
   
   ```
+  By adding the following lines, our plugin has been installed:
+  **Remember to add a name and a mqttHost, which is the Raspberry's IP Address**
   
+  ```
+                  {
+                        "accessory": "relay",
+                        "name": "",
+                        "topic": "relay",
+                        "mqttHost": ""
+                }
   
