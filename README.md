@@ -100,10 +100,9 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   Now we'll be downloading the files:
   
   ```
-  sudo wget https://raw.githubusercontent.com/Juanjod54/Switch-Plugin-ESP8266/master/relay.js
+  sudo wget https://raw.githubusercontent.com/Juanjod54/Switch-Plugin-ESP8266/master/index.js
   
-  sudo wget https://raw.githubusercontent.com/Juanjod54/Switch-Plugin-ESP8266/master/relay.js
-  
+  sudo wget https://raw.githubusercontent.com/Juanjod54/Switch-Plugin-ESP8266/master/package.json 
   ```
   
   Finally we have to edit homebridge's config file, which is located at '~/.homebridge'.
@@ -112,7 +111,6 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   cd ~/.homebridge
   
   sudo nano config.json
-  
   ```
   
   By adding the following lines, our plugin has been installed and is ready to go!
@@ -125,4 +123,5 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
       "topic": "relay",
       "mqttHost": ""
     }
+  ```
   
