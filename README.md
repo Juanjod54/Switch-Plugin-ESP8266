@@ -6,6 +6,8 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   
   · This project has been tested on a Raspberry Pi 3 B+.
   
+  · ESP82266 code can be downloaded and run only with Arduino IDE.
+  
   · Since I am not a native speaker, some steps may be poorly written. Any help is welcomed.
 
 ## Prerequisites
