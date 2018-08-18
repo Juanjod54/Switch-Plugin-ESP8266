@@ -107,7 +107,9 @@ A project to enable IOT on any suitable board by using a Raspberry Pi, a relay a
   sudo wget https://raw.githubusercontent.com/Juanjod54/Switch-Plugin-ESP8266/master/package.json 
   ```
   
-  Finally we have to edit homebridge's config file, which is located at '~/.homebridge'.
+##  5th Step: Setting the plugin.
+
+  We'll edit homebridge's config file, which is located at '~/.homebridge'.
   
   ```
   cd ~/.homebridge
