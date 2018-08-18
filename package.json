@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-relay",
+  "version": "0.0.1",
+  "description": "",
+  "license": "none",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "NULL",
+    "url": ""
+  },
+  "bugs": {
+    "url": "NULL"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "homebridge-esp-pir": "^1.0.2",
+    "mqtt": "^2.18.3"
+  }
+}
